@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ru.urban.android_trainingsession"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ru.urban.android_trainingsession"
@@ -45,4 +45,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.19")
 }
